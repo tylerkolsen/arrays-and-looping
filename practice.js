@@ -1,9 +1,9 @@
 //////////////////PROBLEM 1////////////////////
 
 // Inside the function below, set firstItem to the first item of the input array called 'inputArray'.
-
+const inputArray = [1, 2, 3, 4, 5];
 function first(inputArray) {
-  //Code here
+  let firstItem = inputArray[0]
   return firstItem;
 }
 
@@ -12,7 +12,7 @@ function first(inputArray) {
 // Inside the function below, set arrayLength to the length of inputArray.
 
 function getLength(inputArray) {
-  //Code here
+  let arrayLength = inputArray.length
   return arrayLength;
 }
 
